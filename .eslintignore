@@ -1,0 +1,9 @@
+!.commitlintrc.js
+!.eslintrc.js
+!.lintstagedrc.js
+!.pnpmfile.cjs
+!.prettierrc.js
+!.stylelintrc.js
+
+dist/
+node_modules/
