@@ -422,4 +422,5 @@ terraform.rc
 
 # End of https://www.toptal.com/developers/gitignore/api/ansible,go,node,python,rust,rust-analyzer,terraform,vagrant,visualstudiocode
 
+.nx/
 .pnpm-store/
