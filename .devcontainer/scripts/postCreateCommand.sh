@@ -4,10 +4,13 @@
 npm add -g google-font-installer npm-name-cli
 
 # install Poetry to manage Python projects and Ruff for formatting/linting
-pip install poetry ruff pipreqs pyinstaller ansible ansible-lint
+pip install poetry
 
 # install Node packages
 pnpm install
+
+# create the virtualenv locally
+poetry config virtualenvs.in-project true --local
 
 # install Python packages
 poetry install --no-root
