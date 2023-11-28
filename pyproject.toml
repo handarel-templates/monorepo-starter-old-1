@@ -11,8 +11,11 @@ python  = "~3.12"
 jupyter = "^1.0.0"
 
 [tool.poetry.group.dev.dependencies]
-pipreqs     = "^0.4.13"
-pyinstaller = "^6.2.0"
+ruff         = "^0.1.6"
+ansible      = "^9.0.1"
+ansible-lint = { version = "^6.22.0", markers = "platform_system != 'Windows'" }
+pipreqs      = "^0.4.13"
+pyinstaller  = "^6.2.0"
 
 [tool.ruff]
 target-version = "py312"
