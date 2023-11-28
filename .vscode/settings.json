@@ -5,7 +5,9 @@
         "**/.git": true,
         "**/.hg": true,
         "**/.nx": true,
+        "**/.ruff_cache": true,
         "**/.svn": true,
+        "**/.venv": true,
         "**/CVS": true,
         "**/node_modules": true,
         "**/Thumbs.db": true
@@ -155,7 +157,7 @@
             "source.organizeImports": true
         }
     },
-    "python.defaultInterpreterPath": "/usr/local/python/current/bin/python",
+    "python.defaultInterpreterPath": ".venv/bin/python",
     "python.analysis.autoFormatStrings": true,
     "python.analysis.autoImportCompletions": true,
     "python.analysis.typeCheckingMode": "basic",
@@ -165,10 +167,10 @@
         "source.organizeImports": true
     },
     "ruff.path": [
-        "/usr/local/python/current/bin/ruff"
+        ".venv/bin/ruff"
     ],
     "ruff.interpreter": [
-        "/usr/local/python/current/bin/python"
+        ".venv/bin/python"
     ],
     // #endregion Python
     // #region Go
@@ -219,6 +221,6 @@
             "strings": true
         }
     },
-    "ansible.python.interpreterPath": "/usr/local/python/current/bin/python"
+    "ansible.python.interpreterPath": "/workspaces/monorepo-starter/.venv/bin/python"
     // #endregion Ansible
 }
