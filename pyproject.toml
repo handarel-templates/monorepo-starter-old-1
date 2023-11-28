@@ -10,6 +10,10 @@ authors     = ["Sebastian Berg <sebastian.berg@handarel.dev>"]
 python  = "~3.12"
 jupyter = "^1.0.0"
 
+[tool.poetry.group.dev.dependencies]
+pipreqs     = "^0.4.13"
+pyinstaller = "^6.2.0"
+
 [tool.ruff]
 target-version = "py312"
 line-length    = 100
